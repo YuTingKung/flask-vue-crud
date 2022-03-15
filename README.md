@@ -6,6 +6,7 @@ Run server in virtual environment (use **CMD**):
 
 ```shell
 cd server
+python3.6 -m venv venv
 .\venv\Scripts\activate.bat
 pip install Flask==1.0.2 Flask-Cors==3.0.4
 py app.py
